@@ -205,3 +205,70 @@ footer {
     padding: 10px 0;
     font-size: 14px;
 }
+
+/* estilizando o icone */
+
+.icone i {
+    filter: invert();
+    font-size: 50px;
+    display: none;
+}
+
+.modal {
+    position: absolute;
+    background-color: rgba(87, 87, 87, 0.418);
+    width: 300px;
+    height: 0 auto;
+    top: 117px;
+    left: 480px;
+    margin: 0;
+    display: none;
+    animation: movetop 0.4s ease;
+    animation-name: movetop;
+}
+
+
+@keyframes movetop {
+    from {
+        top: -100%;
+    }
+
+    to {
+        top: 100px;
+    }
+}
+
+.op0 {
+    background-color: #ffffff5b;
+    width: 300px;
+    text-align: center;
+    border-radius: 0px 0px 0px 5px;
+    padding: 10px;
+    z-index: 100;
+
+}
+
+.op1 {
+    border: 1px solid;
+    border: none;
+    background-color: #333;
+    margin: 20px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #f7f7f7;
+    transition: .4s;
+
+}
+
+.op1:hover {
+    background-color: #f7f7f7;
+    color: #252525;
+    transition: .4s;
+}
+
+
+.op0 a {
+    text-decoration: none;
+
+}

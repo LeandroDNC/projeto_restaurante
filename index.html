@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NaGrill</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -20,16 +21,20 @@
             <div class="logo">
                 <img src="imagens/logoo.png">
             </div>
-            <ul>
+            <div class="nav" id="nav">
+                <ul>
 
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Cardápio</a></li>
-                <li><a href="#">Pedidos</a></li>
-            </ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Cardápio</a></li>
+                    <li><a href="#">Pedidos</a></li>
+                </ul>
+            </div>
+            <div class="icone">
+                <span onclick="abrirModal()" id="icone" class="icone"><i class="fa-solid fa-bars"></i></span>
+
 
         </nav>
-
 
 
         </div>
@@ -38,7 +43,7 @@
     <section class="baner">
         <div class="container"><br><br><br>
             <h1>faça seu pedido agora </h1><br>
-            <a href="#" target="_blank">fazer meu pedido agora </a>
+            <span class="aaa"><a  href="#" target="_blank">fazer meu pedido agora </a></span>
 
         </div>
 
@@ -54,9 +59,10 @@
                         <p>Telefone: (xx) xxxx-xxxx</p>
                         <p>Email: zzzzz@xxxxxx.xxx</p>
                     </div>
+
                     <div class="social-media">
                         <h3>Siga-nos</h3><br>
-                        <a href="#"><i id="a1" class="fa-brands fa-square-facebook" style="color: liceblue;" ></i> </a>
+                        <a href="#"><i id="a1" class="fa-brands fa-square-facebook" style="color: liceblue;"></i> </a>
                         <a href="#"><i id="a2" class="fa-brands fa-instagram" style="color: ffffff;"></i></a>
                         <a href="#"><i id="a3" class="fa-brands fa-square-twitter" style="color: ffffff;"></i></a>
 
@@ -67,14 +73,25 @@
                 </div>
             </div>
         </footer>
-</body>
 
-</html>
+            <div class="modal" id="modal">
+                <div class="op0">
 
-</footer>
-
-
-
+                    <a href="#">
+                        <div class="op1">Início</div>
+                    </a>
+                    <a href="#">
+                        <div class="op1">Sobre</div>
+                    </a>
+                    <a href="#">
+                        <div class="op1">Cardápio</div>
+                    </a>
+                    <a href="#">
+                        <div class="op1">Pedidos</div>
+                    </a>
+                </div>
+        </div>
+        <script src="index.js"></script>
 </body>
 
 </html>

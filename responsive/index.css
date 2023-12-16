@@ -1,0 +1,144 @@
+@media (max-width:780px) {
+    .container {
+        margin: 0px 10px 0px 10px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .icone i {
+        display: block;
+    }
+
+    .icone {
+        margin: 0;
+        position: relative;
+        left: 40px;
+    }
+}
+
+@media (max-width:480px) {
+    .container {
+        margin: 0px 10px 0px 10px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .icone i {
+        display: block;
+    }
+
+    .icone {
+
+        left: 20px;
+    }
+
+    .modal {
+        left: 180px;
+    }
+
+    .baner h1 {
+        position: relative;
+        font-size: 50px;
+        top: 100px;
+    }
+
+    .baner a {
+        position: relative;
+        top: 130px;
+    }
+}
+
+@media (max-width:380px) {
+
+    .modal {
+        left: 80px;
+    }
+
+    .baner h1 {
+        position: relative;
+        font-size: 40px;
+        top: 100px;
+    }
+
+    .baner a {
+        position: relative;
+        top: 130px;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .footer-content {
+        position: relative;
+        text-align: center;
+        align-items: center;
+        left: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:280px) {
+
+
+    .modal {
+        position: absolute;
+        width: 100%;
+        overflow: hidden;
+        left: 0;
+    }
+
+    .op0 {
+        padding: 10px;
+    }
+
+    .op1 {
+        position: relative;
+        left: -10px;
+    }
+
+    .icone {
+        left: 0;
+    }
+
+    .baner h1 {
+        position: relative;
+        font-size: 30px;
+        top: 100px;
+    }
+
+    .baner a {
+        position: relative;
+        top: 0;
+        padding: 10px;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .footer-content {
+        position: relative;
+        text-align: center;
+        align-items: center;
+        left: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aaa {
+        position: absolute;
+        top: 300px;
+        left: 60px;
+        
+        font-size: 10px;
+    }
+
+}
