@@ -51,6 +51,26 @@
         top: 130px;
     }
 }
+@media (max-width:420px) {
+    .modal {
+        left: 120px;
+    } 
+}
+@media (max-width:430px) {
+    .modal {
+        left: 130px;
+    } 
+}
+@media (max-width:400px) {
+    .modal {
+        left: 100px;
+    } 
+}
+@media (max-width:390px) {
+    .modal {
+        left: 90px;
+    } 
+}
 
 @media (max-width:380px) {
 
