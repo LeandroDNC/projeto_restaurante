@@ -32,11 +32,11 @@ html {
 
 .logo {
     position: relative;
-    right: 10%;
+    right: 8%;
 }
 
 .inicio nav .logo img {
-    width: 100px;
+    width: 50px;
     cursor: pointer;
     margin: 7px 0;
 
@@ -210,7 +210,7 @@ footer {
 
 .icone i {
     filter: invert();
-    font-size: 50px;
+    font-size: 30px;
     display: none;
 }
 

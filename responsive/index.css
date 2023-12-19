@@ -16,6 +16,10 @@
         position: relative;
         left: 40px;
     }
+
+    .modal{
+        top: 60px;
+    }
 }
 
 @media (max-width:480px) {
@@ -68,6 +72,9 @@
     .modal {
         left: 100px;
     }
+    .baner h1{
+        font-size: 30px;
+    }
 }
 
 @media (max-width:390px) {
@@ -118,6 +125,15 @@
 
     .modal {
         left: 50px;
+    }
+}
+@media (max-width:330px) {
+
+    .modal {
+        left: 20px;
+    }
+    .icone{
+        left: -5px;
     }
 }
 @media (max-width:320px) {
